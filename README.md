@@ -7,21 +7,22 @@ Computing Skills for Biologists, Chapter 3 (Basic Programming), pgs. 81-119
 ## What is Python?
 
 - Interpreted, high-level language
-- Very popular among computational biologists
+- Very popular among computational biologists -has multiple packages
 - One of the most "human readable" programming languages
-- One of the few languages where line indentation is actually interpreted as part of the code
+- One of the few languages where line indentation is actually interpreted as part of the code -     VERY strict
 - Python is _much_ less picky than bash about spacing within lines, though
-- Dynamically typed (don't worry, we'll get to this later)
+- Dynamically typed (don't worry, we'll get to this later) - dont have to say what kind of         variable youre about to assign
 
 ## Three Ways to Run Python
 
 ### Python Interpreter
 
 - Unlike many programming languages (e.g., C++ and Java), Python can be executed interactively.
-- To start the Python interpreter, simply open up a Terminal window and type `python`.
+- To start the Python interpreter, simply open up a Terminal window and type `python3`.
 - Once the Python prompt (`>>>`) appears, type:
     - `a = 3`
     - `print(a)`
+    - or just type variable name
 - What do you see?
 - To exit the Python interpreter, type `quit()`.
 
@@ -29,7 +30,7 @@ Computing Skills for Biologists, Chapter 3 (Basic Programming), pgs. 81-119
 
 - Now, put those same commands in a text file ending with a `.py` extension (e.g., `test.py`).
 - You can use this line at the top of the file to indicate that this is a Python script:
-    - `#! /bin/python3`
+    - `#! /bin/python3` 
     - To run this, add execute permissions to the file, then use `./test.py`
 - Alternatively, you can type `python3 test.py` without the header line.
 - What do you see?
@@ -40,9 +41,16 @@ Computing Skills for Biologists, Chapter 3 (Basic Programming), pgs. 81-119
 - Jupyter notebooks are a special type of file that allows formatted notes to be mixed with Python code.
 - These notebooks can be run on smic through OnDemand.
 - To open a Jupyter notebook, go to the "Interactive Apps" menu at the top and select "Jupyter Notebook".
+- need allocation
+      - single job cue
+      - tell it how long you want the notebook to be available
+      - nodes and cores = 1
+
+can also use google colab-write notes and code and figures
 
 ## Basic Python Data Types
 
+-type(<variablename>)=tells you what type of variable you have
 - Numbers
     - Note that, unlike bash, Python can handle _both_ integers and floating point (decimal) numbers.
     - Integers - `myInt = 10`
@@ -50,15 +58,18 @@ Computing Skills for Biologists, Chapter 3 (Basic Programming), pgs. 81-119
     - If running Python interactively, variable values can be seen just by typing the name of the variable - `myFloat`.
     - If running Python in a script, variable values can be printed by using the `print()` funtion - `print(myFloat)`.
     - Changing numbers from one type to another is one form of "type casting".
-
+              -float() = makes integer a decimal 
+              - save result <variable> = float(<variable>)
 - Strings - `myStr = "This is a string."`
     - Strings can be of any length, but are always defined with quotes.
-    - Individual characters, or subsets of characters, can be accessed using square brackets - []
+    - Individual characters, or subsets of characters, can be accessed using square
+    - interpret as plain text even if number, punctuation, etc
+- brackets - []
       - String indices (and all indices in Python) start at 0
       - `myStr = "biology"`
-      - `myStr[0]`
+      - `myStr[0]` =tells you the first chatacter STARTS COUNTING AT 0!
       - A range of indices can be defined with a colon
-      - `myStr[2:5]`
+      - `myStr[2:5]` inclusive of first number exclusive of last number
     - Strings can be concatenated together with the `+` operator.
       - `myStr = "biology"`
       - `newString = myStr + "_is_super_interesting"`
