@@ -123,6 +123,7 @@ to get it to save variable with new edits do myStr = command
 - Comments are included in Python by putting a `#` at the beginning of a line.
 - Many text editors have a shortcut keystroke to toggle lines between being commented and uncommented. 
 - `# This is an example of a comment`
+- can also use triple " to do longer than a line comments
 
 ## String Formatting
   
@@ -146,6 +147,7 @@ to get it to save variable with new edits do myStr = command
 - This function reads the user input and returns it. But be sure to store it in a variable!
     - `userStr = input("Input some string: ")`
 - You can use the string methods outlined above to standardize user input - like stripping out excess whitespace, changing character case, etc.
+- usually use this in script
 
 ## Getting help from Python
   
@@ -164,6 +166,9 @@ to get it to save variable with new edits do myStr = command
 if <CONDITION>:
     <DO_THIS>
 ```
+must indent--> use 4 spaces
+
+!= means not equals
    
 - The `if` statement has to finish with a `:`.
 - Also, in Python, the code block _inside_ the `if` statement must be indented. You can use either tabs or a certain number of spaces. When using spaces, you must use the __same__ number of spaces throughout your code. The official recommendations for Python style strongly suggest using 4 spaces, rather than tabs.
