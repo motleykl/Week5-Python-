@@ -115,6 +115,8 @@ for letter in myStr:
     - `myStr.replace("y","ical")` - This method functions like find and replace, where the first argument is the text to find and the second argument is the text to use when replacing.
     - `myStr.split("O")` - Breaks up the string, using the character provided as an argument as the delimiter. This method then returns a list of new strings. We'll talk more about lists later.
 
+to get it to save variable with new edits do myStr = command
+
 ## Comments in Python
 
 - Just like with bash, comments are essential in Python.
