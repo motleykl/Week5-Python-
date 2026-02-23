@@ -255,3 +255,7 @@ messages with answers to each question.
 - [Software Carpentry - Intro. to Python](http://swcarpentry.github.io/python-novice-inflammation/)
 - [Updated notes on Python string formatting](https://realpython.com/python-string-formatting/#2-new-style-string-formatting-strformat)
 - [CodeWars - Practice your Python skills!](https://www.codewars.com/)
+
+
+in terminal: can type dir(variable) to give all method names that are associated with that kind of variable;
+    _ _ = used by python but not by you -IGNORE
