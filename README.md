@@ -260,8 +260,10 @@ seq = "ACGTT"
 ...     print("seq has a C")
 ... 
 seq has a C
->>>
->>> 
+>>
+>>
+if cant find the value gives -1
+
 ## Additional Python Resources
 
 - [Python](https://www.python.org)
