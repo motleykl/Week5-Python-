@@ -254,7 +254,7 @@ messages with answers to each question.
 - Generate the reverse complement of each sequence.
 ```
 
-example 
+example: finds character spot in the sequence
 seq = "ACGTT"
 >>> if seq.find("C"):
 ...     print("seq has a C")
