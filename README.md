@@ -254,6 +254,14 @@ messages with answers to each question.
 - Generate the reverse complement of each sequence.
 ```
 
+example 
+seq = "ACGTT"
+>>> if seq.find("C"):
+...     print("seq has a C")
+... 
+seq has a C
+>>>
+>>> 
 ## Additional Python Resources
 
 - [Python](https://www.python.org)
