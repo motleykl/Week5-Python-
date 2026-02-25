@@ -256,12 +256,11 @@ messages with answers to each question.
 
 example: finds character spot in the sequence
 seq = "ACGTT"
->>> if seq.find("C"):
+if seq.find("C"):
 ...     print("seq has a C")
 ... 
 seq has a C
->>
->>
+
 if cant find the value gives -1
 
 ## Additional Python Resources
